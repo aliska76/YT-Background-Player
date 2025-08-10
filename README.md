@@ -49,3 +49,33 @@ Run the app:
 ```bash
 npx react-native run-android
 ```
+
+### Building a Release APK
+
+Follow the Android Studio instructions or run:
+```
+cd android
+./gradlew assembleRelease
+```
+
+The signed APK will be located at:
+android/app/build/outputs/apk/release/app-release.apk
+
+### Technologies Used
+* React Native with TypeScript
+
+* react-native-webview
+
+* react-native-track-player for background audio
+
+* Custom AdBlock filters (EasyList-based)
+
+### Future Improvements
+* Add iOS support with background playback
+
+* Implement OAuth for authenticated YouTube access
+
+* Enhanced UI/UX with playlists and history
+
+* Automated CI/CD pipeline for building and releasing
+
