@@ -1,4 +1,5 @@
 # YT-Background-Player
+
 A React Native mobile application that enables background audio playback of YouTube videos with built-in AdBlock support.  
 Ideal for listening to YouTube content like audiobooks or music while using other apps.
 
@@ -37,11 +38,14 @@ git clone https://github.com/yourusername/yt-background-player.git
 cd yt-background-player
 npm install
 # or
-yarn install```
+yarn install
+```
 
 ### Running on Android
+
 Start Android emulator or connect a physical device via USB (with USB Debugging enabled).
 
 Run the app: 
 ```bash
-npx react-native run-android```
+npx react-native run-android
+```
